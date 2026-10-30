@@ -1,25 +1,23 @@
-name: Catalog correction
-description: Suggest a sourced correction or new evidence for an ExEn record.
-title: "[Catalog] "
+name: Report an error or missing credit
+description: Tell Wakka about an incorrect detail, missing credit, or broken link.
+title: "[Archive report] "
 body:
   - type: input
-    id: game
+    id: record
     attributes:
-      label: Game or record
-      description: Give the title or a link to the archive page.
+      label: Title or record
+      description: Include the catalog URL, record ID, or exact title.
     validations:
       required: true
   - type: textarea
-    id: correction
+    id: problem
     attributes:
-      label: Correction or new evidence
-      description: Explain what should change and which ExEn edition it concerns.
+      label: What looks incorrect?
+      description: Describe the incorrect detail, missing credit, or broken link. Wakka reviews reports and makes any site updates.
     validations:
       required: true
   - type: textarea
     id: source
     attributes:
-      label: Source
-      description: Link the supporting reference. For file evidence, record the filename and checksum rather than attaching game files.
-    validations:
-      required: true
+      label: Supporting reference
+      description: Include a source link where possible. Please provide filenames or checksums rather than attaching game files.
