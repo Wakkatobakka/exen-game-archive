@@ -1,0 +1,25 @@
+name: Catalog correction
+description: Suggest a sourced correction or new evidence for an ExEn record.
+title: "[Catalog] "
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Game or record
+      description: Give the title or a link to the archive page.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction or new evidence
+      description: Explain what should change and which ExEn edition it concerns.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Link the supporting reference. For file evidence, record the filename and checksum rather than attaching game files.
+    validations:
+      required: true
