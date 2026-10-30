@@ -59,4 +59,4 @@ Original listing source: [My Abandonware — ExEn](https://www.myabandonware.com
 
 Found a missing credit, wrong date, or new package evidence? Open a [catalog correction](https://github.com/Wakkatobakka/exen-game-archive/issues/new?template=catalog-correction.yml) and include the title, correction, and supporting reference. See [CONTRIBUTING.md](CONTRIBUTING.md) and [data/SCHEMA.md](data/SCHEMA.md).
 
-Independent catalog by Wakkatobakka. No affiliation with In-Fusio, My Abandonware, or original rights holders. This repository contains original site code and metadata; game files, source-site prose, and original game artwork are not bundled. The [MIT license](LICENSE) covers original site code, not third-party games or trademarks.
+Independent catalog by Wakkatobakka. No affiliation with In-Fusio, My Abandonware, or original rights holders. This repository contains original site code and metadata; game files, source-site prose, and original game artwork are not bundled.
