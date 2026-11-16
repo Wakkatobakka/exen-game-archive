@@ -1,40 +1,39 @@
-# ExEn / The Lost Catalog
+# ExEn / Archive
 
-**The platform faded. The catalog shouldn't.**
+**A true archive of the game and its history, not just a file.**
 
-[**Browse the ExEn archive →**](https://wakkatobakka.github.io/exen-game-archive/) · [Sources and methods](https://wakkatobakka.github.io/exen-game-archive/about/) · [Original listings](https://www.myabandonware.com/browse/platform/exen/)
+[Visit the archive](https://wakkatobakka.github.io/exen-game-archive/) · [Platform history](https://wakkatobakka.github.io/exen-game-archive/history/) · [Creators](https://wakkatobakka.github.io/exen-game-archive/creators/) · [Sources](https://wakkatobakka.github.io/exen-game-archive/sources/)
 
-Created and maintained by **Wakkatobakka**. A searchable guide to 46 documented ExEn listings, with individual title pages and a source trail for every record.
+Wakka’s archive of ExEn games and their history: what the games were, who made them, how they were developed, and the material that survives.
 
-![ExEn Archive](assets/social-preview.png)
+## Revision 3.0
 
-## Explore the catalog
+- All 46 game entries rewritten around the approved Crash pilot’s structure and voice.
+- ExEn’s original navy, mint and amber colour scheme retained.
+- 94 people indexed; 35 entries with personal credits and 18 studios or organisations.
+- 70 historical images across 34 game entries, with captions, platform identification and source credits.
+- Short direct quotations retain their wording, attribution and translation credits.
+- 132 references, including game descriptions, credits, interviews, contemporary coverage and announcements.
+- Search by game, creator, studio or role; filters, creator connections and data exports.
 
-- **46 source-linked game records**, with listed release years from 2001–2006.
-- Search by title, developer, publisher, year, or genre.
-- Filter by year and genre, or sort alphabetically and chronologically.
-- Featured titles, platform history, and research notes.
-- [Catalog CSV](data/catalog.csv) and [complete JSON](data/catalog.json).
+Development and reception sections appear where sources support them. Shorter entries stay short. Original catalog details and unresolved edition questions are kept in expandable notes. Original game-page URLs are unchanged.
 
-## What the records establish
+## GitHub Pages
 
-The starting point is **My Abandonware's ExEn directory**. The records document source-listed titles; original game packages have not been inspected or tested for this index. Publisher, developer, and genre details appear where recorded in the underlying research. Unknown details remain open.
+The checked-in HTML is ready to serve. Upload the files at the repository root; no installation or build is needed to publish them. Keep `index.html` at the root, beside `assets`, `data` and `games`.
 
-The listed years refer to the ExEn directory entries. Multi-platform source pages can describe other editions with different dates. This catalog does not claim to cover every historical ExEn release, establish package completeness, or verify present-day playability.
+## Research updates
 
-## Sources and credits
+`data/catalog.json` keeps the original ExEn catalog metadata. `data/research.json` contains the public-facing entry text, source references, selected personal credits, studio roles, quotations and image provenance.
 
-Original listing source: [My Abandonware — ExEn](https://www.myabandonware.com/browse/platform/exen/), reviewed for the underlying research on October 29, 2026. Every record links to its original game page. The [source register](data/SOURCES.md) and [field definitions](data/SCHEMA.md) explain the evidence and its limits.
+For future data edits, run `python3 scripts/build.py`, then `python3 scripts/verify.py`. Both use Python’s standard library and work without network access. Generated HTML, CSV exports, creator links and the sitemap stay in sync.
 
-This repository contains the catalog, original site code, and presentation. Game files, source-site prose, and original game artwork are not bundled. Third-party games, trademarks, and source materials retain their respective ownership.
+Read [the data dictionary](data/SCHEMA.md) before changing source records. [The source register](data/SOURCES.md) and the website’s Sources page identify the research used.
 
-## Errors and broken links
+## Attribution and corrections
 
-Report an incorrect detail, missing credit, or broken link through [GitHub Issues](https://github.com/Wakkatobakka/exen-game-archive/issues). Include the title or record ID and a supporting source where possible. Wakka reviews reports and publishes any updates.
+Every entry has its own bibliography. MobyGames credit transcriptions, original developer accounts, contemporary articles and catalog records are identified separately. ExEn adaptations and other phone editions are distinguished. Historical images retain source and reproduction credits. No game binaries are included, and no game packages were tested as part of this archive research.
 
-## More from Wakka's archive
+[Suggest a correction or source](https://github.com/Wakkatobakka/exen-game-archive/issues). Wakka reviews additions before publication.
 
-[Qualcomm BREW](https://wakkatobakka.github.io/qualcomm-brew-archive/) · [Zeebo](https://wakkatobakka.github.io/zeebo-archive/) · [ExEn](https://wakkatobakka.github.io/exen-game-archive/) · [DoJa](https://wakkatobakka.github.io/doja-archive/)
-
----
-Independent catalog by Wakkatobakka. No affiliation with In-Fusio, My Abandonware, or original rights holders.
+[BREW](https://wakkatobakka.github.io/qualcomm-brew-archive/) · [DoJa](https://wakkatobakka.github.io/doja-archive/) · [J2ME](https://wakkatobakka.github.io/j2me-archive/) · [N-Gage](https://wakkatobakka.github.io/ngage-archive/) · [Zeebo](https://wakkatobakka.github.io/zeebo-archive/)
