@@ -18,18 +18,6 @@ Wakka’s archive of ExEn games and their history: what the games were, who made
 
 Development and reception sections appear where sources support them. Shorter entries stay short. Original catalog details and unresolved edition questions are kept in expandable notes. Original game-page URLs are unchanged.
 
-## GitHub Pages
-
-The checked-in HTML is ready to serve. Upload the files at the repository root; no installation or build is needed to publish them. Keep `index.html` at the root, beside `assets`, `data` and `games`.
-
-## Research updates
-
-`data/catalog.json` keeps the original ExEn catalog metadata. `data/research.json` contains the public-facing entry text, source references, selected personal credits, studio roles, quotations and image provenance.
-
-For future data edits, run `python3 scripts/build.py`, then `python3 scripts/verify.py`. Both use Python’s standard library and work without network access. Generated HTML, CSV exports, creator links and the sitemap stay in sync.
-
-Read [the data dictionary](data/SCHEMA.md) before changing source records. [The source register](data/SOURCES.md) and the website’s Sources page identify the research used.
-
 ## Attribution and corrections
 
 Every entry has its own bibliography. MobyGames credit transcriptions, original developer accounts, contemporary articles and catalog records are identified separately. ExEn adaptations and other phone editions are distinguished. Historical images retain source and reproduction credits. No game binaries are included, and no game packages were tested as part of this archive research.
