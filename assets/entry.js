@@ -1,5 +1,9 @@
 (() => {
   'use strict';
+  const footer = document.querySelector('.footer-vision');
+  if (footer?.textContent.trim() === 'A true archive of the game and its history, not just a file.') {
+    footer.textContent = 'Game histories, creator credits and original sources.';
+  }
   const viewer = document.getElementById('image-viewer');
   if (viewer && typeof viewer.showModal === 'function') {
     const image = document.getElementById('viewer-image');
